@@ -1,0 +1,99 @@
+Chauss is a comparing/vying card game in which players wager over who will have the highest score. Games are divided into rounds. A round consists of four betting phases, followed by a showdown in which all remaining players declare their hands which consist of
+any number of melds.
+
+
+
+Beginning a Round:
+All players must put their ante into the pot. Then, beginning with the player left of the dealer, each player is dealt one hole card, followed
+by one upcard. Finally, one community card is dealt.
+
+Ante: Forced bet all players must make to begin a round, the size of which is agreed upon before playing.
+
+Pot: All money that has been wagered in the current round.
+
+Hole Card: Dealt face down, only the card’s owner can see it and use it to form melds.
+
+Upcard: Dealt face up, all players can see upcards, but only the card’s owner can use it to form melds.
+
+Community Card: Dealt face up and shared, all players can use community cards to form melds.
+
+
+
+Betting Phase:
+At the beginning of each phase, an action card is drawn from the top of the deck and revealed to all players. It is then discarded, and its action is performed. Card actions are listed at the end of the document. If the deck is empty at the beginning of a betting phase, move immediately to a
+showdown; players may not place bets.
+
+After an action card is drawn, betting begins starting with the player left of the dealer and proceeding around the table clockwise. The acting player can check (if no one has raised), call (if someone has raised), raise, or fold.
+
+Check: Pass without making a bet.
+Call: Match the current bet.
+Raise: Increase the current bet.
+Fold: Forfeit the current hand.
+Dealer: Last player to act in a betting phase (rotates clockwise after each hand).
+
+The betting structure is pot-limit, meaning players are not allowed to raise more than the size of the pot (after matching any previous bet). The minimum raise is equal to the size of the ante.
+
+If the acting player doesn’t fold, they may pay to draw another action card from the deck. That money goes into the pot. The price of an action card is equal to the size of the ante times the number of action cards purchased this round (including the card being purchased).
+
+A betting phase ends when all remaining players have acted, AND all remaining players have bet an equal amount. If all but one player folds, that player wins the pot, and the round ends.
+
+
+
+Showdown:
+If play reaches the end of four betting phases OR the deck runs out of cards, all active players must declare and reveal their hands. Once a hand has been declared, it can’t be changed. Hands have a point value and consist of any number of melds. The player with the highest score wins the pot. If there is a tie, the pot is split evenly between those players.
+
+Types of Melds:
+
+Sets: Multiple cards of the same rank.
+Sequences: Consecutive cards of ascending rank (3♣-4♦-5♣-6♠). A sequence must be at least four cards. Aces can be high or low.
+Floods: Collections of cards of the same suit (e.g. 2♠-5♠-8♠-K♠). Like sequences, a flood must be at least four cards.
+Flash Floods: Consecutive cards of the same suit and ascending rank (must be at least four cards).
+* Cards can only be used ONCE by a player when declaring their hand. For example, if a player holding 3♥-3♦-4♣-5♣-6♠ declares a sequence using 3♦-4♣-5♣-6♠, they CANNOT use the 3♦ again to declare a set of 3’s.
+
+Scoring Melds:
+Set of 2: 10 points plus the rank of the cards.
+Set of 3: 25 points plus the rank of the cards.
+Set of 4: 100 points plus the rank of the cards.
+Sequence: 15 points plus the rank of the highest card in the Sequence (aces can be high or low). Bonus doubles for each card after the fourth. So, A♥-2♣-3♦-4♥-5♣-6♦ is worth 84 points: 2 * 2 * (15 + 6).
+Floods: 20 points plus the rank of the highest card in the Flood. Bonus doubles for each card after the fourth.
+Flash Floods: 75 points plus the rank of the highest card in the Flash Flood. Bonus doubles for each card after the fourth.
+* Jacks have a point value of 11; Queens 12; Kings 13; Aces 14.
+* Sets of more than 4 are possible with wildcards. The bonus doubles for each card after the fourth. For example, five 6’s are worth 212 points: 2 * (100 + 6). Six 6’s are worth 424 points, seven are worth 848 points, etc.
+
+
+
+Action Cards:
+2 – Deal a hole card to each player if there are enough cards. If there are not enough cards left in the deck to deal a card to each player, discard
+the rest of the deck instead, finish the betting phase and go to a showdown.
+3 – Deal an upcard to each player if there are enough cards. If there are not enough cards left in the deck to deal a card to each player, discard
+the rest of the deck instead, finish the betting phase and go to a showdown.
+4 – Deal a community card if the deck is not empty. If the deck is empty, finish the betting phase and go to a showdown.
+5 – All players discard a hole card if able.
+6 – All players discard an upcard if able.
+7 – Deal a hole card and an upcard to each player if there are enough cards. If there are not enough cards left in the deck to deal the cards to
+each player, discard the rest of the deck instead, finish the betting phase, and go to a showdown.
+8 – Deal a hole card to each player, then deal a community card if there are enough cards. If there are not enough cards left in the deck to deal a
+card to each player plus the community card, discard the rest of the deck instead, finish the betting phase and go to a showdown.
+9 – Deal two community cards. If there are fewer than two cards left in the deck, deal the rest of the deck as community cards, finish the betting
+phase and go to a showdown.
+10 – Draw a card from the deck and reveal it if the deck is not empty. Cards of that rank are wild for the duration of the round. (If the deck was
+empty, finish the betting phase and go to a showdown.)J – Deal one hole card and one upcard to each player, then deal a community card if there are enough cards. If there are not enough cards left in
+the deck to deal two cards to each player plus the community card, discard the rest of the deck instead, finish the betting phase, and go to a
+showdown.
+Q – Deal three community cards. If there are fewer than three cards left in the deck, deal the rest of the deck as community cards, finish the
+betting phase and go to a showdown.
+K – Everyone, beginning with the player left of the dealer, may declare any number of melds now. Those cards are discarded, and all hands are
+replenished (cards are dealt until all players have the same number of cards as before) if there are enough cards remaining in the deck. Any
+community cards a player uses to form a meld now CANNOT be used again by that player. If the community cards are discarded before the end of
+the round, they are removed from all melds. Players still receive points for those melds as long as they’re still legal. (If there were not enough
+cards left in the deck to replenish all hands, discard the rest of the deck instead, finish the betting phase and go to a showdown. Declared melds
+remain in play; community cards used cannot be used again by those players.)
+A♥ - All active players pass their hands to the next active player on their right.
+A♦ - All hole cards and upcards are discarded and replenished (cards are dealt until all players have the same number as before) if there are
+enough cards. If there are not enough cards left in the deck, discard the rest of the deck instead, finish the betting phase and go to a showdown
+(hole cards and upcards are not discarded).
+A♣ - All community cards are discarded and replenished if there are enough cards. If there are not enough cards left in the deck, discard the rest
+of the deck instead, finish the betting phase and go to a showdown (community cards are not discarded).
+A♠ - All hole cards, upcards, and community cards are discarded and replenished if there are enough cards. If there are not enough cards left in
+the deck, discard the rest of the deck instead, finish the betting phase, and go to a showdown (hole cards, upcards, and community cards are not
+discarded).

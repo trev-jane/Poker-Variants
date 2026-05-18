@@ -1,0 +1,101 @@
+# --------------------------------------------
+# Compiled Object files, Static & Shared libs
+# --------------------------------------------
+*.o
+*.obj
+*.lo
+*.slo
+*.la
+*.so
+
+# --------------------------------------------
+# Executables
+# --------------------------------------------
+*.exe
+*.out
+*.app
+
+# --------------------------------------------
+# Precompiled headers and modules
+# --------------------------------------------
+*.gch
+*.pch
+*.mod
+*.smod
+*.ipch
+
+# --------------------------------------------
+# Visual Studio-specific
+# --------------------------------------------
+.vs/
+*.suo
+*.user
+*.userosscache
+*.VC.db
+*.sdf
+*.opensdf
+*.cache
+*.db
+*.v17
+*.vsidx
+*.pdb
+
+# --------------------------------------------
+# Build folders (Visual Studio, MSBuild, etc.)
+# --------------------------------------------
+Debug/
+Release/
+x64/
+x86/
+[Bb]uild/
+[Bb]in/
+[Oo]bj/
+
+# --------------------------------------------
+# CMake-generated
+# --------------------------------------------
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+
+# --------------------------------------------
+# Logs, temp, and backup files
+# --------------------------------------------
+*.log
+*.tmp
+*.bak
+*~
+*.swp
+*.swn
+
+# --------------------------------------------
+# OS-generated files
+# --------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --------------------------------------------
+# Python / scripting (if ever used)
+# --------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+
+# --------------------------------------------
+# GitHub Codespaces or VS Code (optional)
+# --------------------------------------------
+.vscode/
+.code-workspace
+
+# SoLoud test files and documentation
+Libraries/soloud20200207/bin/audio/
+Libraries/soloud20200207/doc/
+Libraries/ExternalDLLs/
+*.dll
+*.lib
+*.ilk
+*.iobj
+*.ipdb
